@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/voidbeary/FCC-Cash-Register/issues"
   },
-  "homepage": "https://github.com/voidbeary/FCC-Cash-Register#readme"
+  "homepage": "https://github.com/voidbeary/FCC-Cash-Register#readme",
+  "dependencies": {
+    "nodemon": "^2.0.12"
+  }
 }
